@@ -51,8 +51,9 @@ main {
     margin: 0 auto;
     margin-top: 130px;
     background-color: white;
-    text-align: center;
 }
+
+/* Failure section styles */
 
 .failure-section {
     display: flex;
@@ -81,16 +82,47 @@ main {
 }
 
 ul {
-    list-style: none;
+    
     justify-content: center;
+    list-style: circle;
 }
 
 li {
     color: #444343;
     padding-bottom: 10px;
-    list-style: symbols('✓');
+}
+
+/* About me section styles */
+
+.about-me {
+    display: flex;
+    align-items: center;
+    width: 1072px;
+    height: 723.3px;
+}
+
+.about-me-section-title {
+    padding: 24px;
+    padding-right: 128px;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.about-me-section-content {
+    padding-left: 130px;
+}
+
+.about-me-section-des {
+    padding: 16px;
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
 
 }
+.about-me-skill-title{
+    padding: 10px;
+}
+
 
 /* My plans styles */
 .plan-section-title {
@@ -123,4 +155,131 @@ li {
     color: #737272;
     font-weight: 300;
     font-size: 15px;
+}
+
+/* Banner Bottom */
+
+.bottom-banner {
+    width: 1140px;
+    height: 300px;
+    background-image: url('./images/watch.png');
+    border: 0;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.bottom-banner-title {
+    padding-top: 65px;
+    font-weight: 700;
+    padding-left: 64px;
+    padding-right: 617px;
+    font-size: 40px;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    width: 500px;
+    height: 235px;
+}
+
+.banner-btn {
+    border: 0;
+    border-radius: 5px;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 36px;
+    margin-left: 64px;
+}
+
+/* Footer styles */
+
+.footer-section {
+    margin-top: 130px;
+    width: 1600px;
+    height: 577px;
+    background: #151414;
+    display: flex;
+    align-items: center;
+}
+
+.footer-details {
+    margin-left: 230px;
+
+}
+
+.footer-header {
+    padding-top: 130px;
+    padding-bottom: 16px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.footer-des {
+    padding-right: 331px;
+    padding-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+
+.footer-list {
+    list-style: none;
+    padding-bottom: 16px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer-contact-email {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer-contact-phone {
+    color: #FFFFFF;
+    padding-top: 16px;
+    padding-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer-inputs {
+    margin-right: 299px;
+}
+
+.footer-inputs-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-bottom: 31px;
+}
+
+input[type=text] {
+    width: 325px;
+    height: 64px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: #3c4b4600;
+    color: white;
+
+}
+
+::placeholder {
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.btn-subscribe {
+    margin-top: 20px;
+    width: 170.11px;
+    height: 64px;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 36px;
+    border: 0;
+    border-radius: 5px;
 }
