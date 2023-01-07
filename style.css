@@ -47,9 +47,11 @@
 main {
     max-width: 1072px;
     display: flex;
+    justify-content: center;
     margin: 0 auto;
     margin-top: 130px;
     background-color: white;
+    text-align: center;
 }
 
 .failure-section {
@@ -88,4 +90,37 @@ li {
     padding-bottom: 10px;
     list-style: symbols('✓');
 
+}
+
+/* My plans styles */
+.plan-section-title {
+    text-align: center;
+    margin-bottom: 51px;
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plans-contents {
+    display: flex;
+
+
+}
+
+.the-plans {
+    margin: 40px 60px;
+}
+
+.plans-title {
+    padding-top: 30px;
+    padding-bottom: 16px;
+    color: #151414;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.plans-des {
+    color: #737272;
+    font-weight: 300;
+    font-size: 15px;
 }
