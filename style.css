@@ -21,12 +21,14 @@
     font-weight: 700;
     font-size: 65px;
     padding-bottom: 24px;
+    padding-left: 845px;
 }
 
 .header-banner-des {
     font-weight: 400;
     font-size: 16px;
     padding-bottom: 32px;
+    padding-left: 845px;
 }
 
 .btn-contact {
@@ -35,8 +37,55 @@
     border: 0;
     border-radius: 5px;
     color: #FFFFFF;
-    background:  #F15B22;
+    background: #F15B22;
     font-weight: 600;
-font-size: 20px;
+    font-size: 20px;
+
+}
+
+/* main section styles */
+main {
+    max-width: 1072px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 130px;
+    background-color: white;
+}
+
+.failure-section {
+    display: flex;
+    align-items: center;
+    width: 1072px;
+    height: 723.3px;
+}
+
+.fail-section-title {
+    padding: 24px;
+    padding-right: 128px;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.fail-section-content {
+    padding-left: 130px;
+}
+
+.fail-section-des {
+    padding: 16px;
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+ul {
+    list-style: none;
+    justify-content: center;
+}
+
+li {
+    color: #444343;
+    padding-bottom: 10px;
+    list-style: symbols('✓');
 
 }
